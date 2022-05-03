@@ -1,0 +1,221 @@
+// body {
+//     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+//     text-align: center;
+//     display: grid;
+//     justify-content: center;
+//     align-items: center;
+
+// }
+
+// table,
+// th,
+// td {
+//     border-color: grey;
+//     border-style: solid;
+//     border-collapse: collapse;
+//     padding: 10px;
+//     text-align: center;
+//     font-style: italic;
+// }
+
+// th {
+//     width: 10%;
+// }
+
+// a {
+//     text-decoration: none;
+//     color: black;
+//     font-style: italic;
+// }
+
+// button {
+//     border: none;
+//     color: black;
+//     font-style: italic;
+//     background: none;
+//     font-size: 15px;
+//     font-weight: 600;
+// }
+
+// .imgs {
+//     text-align: center;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     float: right;
+// }
+
+// Shop
+
+.shop {
+    overflow-x: hidden;
+    height: 100vh;
+
+    main {
+        height:92%;
+        text-align: center;
+        align-items: center;
+
+        .articless {
+            position:absolute;
+            width:85%;
+            top:5%;
+            right:0;
+            height:100%;
+            border-style: hidden;
+
+            article {
+                display: inline-block;
+                margin: 1%  ;
+                box-shadow: grey 0px 0px 10px;
+
+                .plus {
+                    position: absolute;
+                    z-index: 5;
+                    background-color: lightblue;
+                    margin: 3% 85%;
+                    padding: 2px 8px;
+                    border-radius: 15px;
+                    cursor: pointer;
+                    border: none;
+                    font-size: 100%;
+                }
+            }
+        }
+            
+        
+        h4 {
+            font-size: 15px;
+            font-weight: 600;
+            margin-right: 80px;
+        }
+
+        .filtre {
+            position:absolute;
+            width:20%;
+            top:10%;left:0;
+            height:83%;
+            overflow: overlay;
+
+            .cat {
+                text-align: right;
+                align-items: center;
+                margin-right: 30%;
+            }
+        }
+
+        iframe {
+            border-style: hidden;
+            height: 100%;
+        }
+    }
+}
+
+/* Shop */
+
+
+.slider {
+    width: 40%;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+}
+
+.inppr {
+    width: 15%;
+}
+  
+
+.plusimg {
+    position: relative;
+}
+
+article img {
+    z-index: 1;
+    object-fit: cover;
+    block-size: 275px;
+}
+
+article {
+    font-size: 20px;
+}
+
+.nameprix {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: -10% -22%;
+}
+
+article h2 {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 3.5%;
+}
+
+article p {
+    font-style: oblique;
+    font-weight: 600;
+    background-color: lightsteelblue;
+    width: 20%;
+    padding: 10px 10px;
+    margin-left: -2%;
+}
+
+article input {
+    display: flex;
+    align-items: center;
+    background-color: revert;
+    margin: 10% 3%;
+    padding: 10px 90px;
+    border-style: none;
+    cursor: pointer;
+}
+
+article input:hover {
+    background-color: lightsalmon;
+} 
+
+article h3 {
+    font-size: 15px;
+    color: grey;
+    margin-left: 3%;
+    overflow-x: auto;
+}
+
+article h4 {
+    font-size: 15px;
+    color: grey;
+    margin-left: 3%;
+    overflow: hidden;
+}
+
+.desc {
+    width: 300px;
+}
+
+.desc h4 {
+    text-align: center;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+}
+
+    /* Main */
+
+.desc h4 {
+    text-align: center;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
