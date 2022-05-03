@@ -1,0 +1,43 @@
+h2 {
+    font-size: 15px;
+    text-align: center;
+}
+
+fieldset {
+    border-style: none;
+    text-align: center;
+}
+
+img {
+    width: 25px;
+    margin-bottom: -7px;
+}
+
+input {
+    border-style: revert;
+    height: 25px;
+    margin: 5px;
+}
+
+.ir {
+    height: 10px;
+    margin-left: 30px;
+    color: black;
+}
+
+.va {
+    margin-left: 30px;
+    height: 30px;
+    border-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+.va:hover {
+    background-color: lightblue;
+}

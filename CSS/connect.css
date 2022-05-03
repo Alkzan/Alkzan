@@ -1,0 +1,71 @@
+
+h2 {
+    font-size: 15px;
+    text-align: center;
+}
+
+fieldset {
+    border-style: none;
+    text-align: center;
+}
+
+img {
+    width: 25px;
+    margin-bottom: -7px;
+}
+
+input {
+    border-style: revert;
+    height: 25px;
+    margin: 5px;
+}
+
+.ir {
+    height: 10px;
+    margin-left: 30px;
+    color: black;
+}
+
+.va {
+    margin-left: 30px;
+    height: 30px;
+    border-style: none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+.va:hover {
+    background-color: lightblue;
+}
+
+.droite {
+    text-align: right;
+    display: flex;
+}
+
+.button {
+    text-align: left;
+    padding: 0% 0% 0% 34%;
+}
+
+caption {
+    font-weight: bold;
+    font-size: larger;
+    margin: 5px;
+}
+
+table {
+    margin: auto;
+    border-style: none;
+    border-color: white;
+}
+
+fieldset {
+    width: fit-content;
+    margin: auto;
+}

@@ -1,0 +1,182 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+    align-items: center;
+
+}
+
+.p4h {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.num {
+    border-style: none;
+}
+
+.ka {
+    margin-left: 71%;
+}
+
+.tit {
+
+    font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    width: 345%;
+    margin-left: -120%;
+}
+
+form {
+    display: inline-block;
+    justify-content: center;
+    width: 50vh;
+}
+
+.facture {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 269%;
+    margin-left: -82%;
+}
+
+
+.pa {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    width: 345%;
+    margin-left: -120%;
+}
+
+.title {
+    display: flex;
+}
+
+table,
+th,
+td {
+    border-color: grey;
+    border-style: solid;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+}
+
+th {
+    width: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+button {
+    border: none;
+    color: black;
+    font-style: italic;
+    background: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.imgs {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.achats {
+    display: flex;
+    align-items: center;
+    background-color: revert;
+    margin: 10% 3%;
+    padding: 10px 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.commands {
+    display: flex;
+    align-items: center;
+    background-color: revert;
+    margin: 10% 3%;
+    padding: 10px 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.commandss {
+    display: flex;
+    align-items: center;
+    background-color: revert;
+    margin: 10% 38%;
+    padding: 10px 10px;
+    border-style: none;
+    cursor: pointer;
+}
+
+hr {
+    width: 320%;
+    align-items: center;
+    text-align: center;
+    margin-left: -110%;
+}
+
+.achats:hover {
+    background-color: lightblue;
+}
+
+.commands:hover {
+    background-color: lightblue;
+}
+
+.commandss:hover {
+    background-color: lightgrey;
+}
+
+.ca {
+    display: flex;
+    justify-content: space-around;
+}
+
+.price {
+    text-align: right;
+    font-size: 13px;
+    margin-right: -110%;
+}
+
+.paiement {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+}
+
+.pm {
+    font-size: 12px;
+    color: green;
+}
+
+.facenv {
+    justify-content: space-around;
+    width: 150%;
+    text-align: left;
+    align-items: center;
+    margin-left: -25%;
+}
+
+.exp {
+    text-align: right;
+    margin-top: -20%;
+}

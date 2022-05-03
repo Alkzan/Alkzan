@@ -1,0 +1,105 @@
+.stock {
+    display: block;
+    color: grey;
+    font-size: 13px;
+    margin: -15px 0% 0% 15px;
+}
+
+.all {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;    
+}
+
+.title {
+    text-align: center;
+}
+
+.title a {
+    text-decoration: none;
+    color: black;
+}
+
+.alls {
+    display: flex;
+    margin: 5% auto;
+    align-items: center;
+    box-shadow: 0px 0px 1px black;
+    justify-content: center;
+    width: 52em;
+}
+
+.img {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.desc {
+    text-align: center;
+    display: contents;
+}
+
+.prisx {
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.qte {
+    font-weight: 600;
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+.qtei {
+    border-style: none;
+}
+
+.buttton {
+    display: flex;
+    align-items: center;
+    background-color: revert;
+    margin: 10% 3%;
+    padding: 10px 90px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.buttton:hover {
+    background-color: lightblue;
+} 
+
+.buttton a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+.aco {
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+
+.acod {
+    text-align: center;
+    margin-top: -15%;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+ 
+::-webkit-scrollbar-track {
+    background: white; 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: grey;
+}
